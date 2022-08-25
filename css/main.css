@@ -19,10 +19,11 @@
   scroll-behavior: smooth;
 }
 
-body {
-  overflow-x: hidden;
+@media only screen and (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
 }
-
 .link, .hero__wrapper__content__link {
   font-family: "Manrope";
   font-weight: 700;

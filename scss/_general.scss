@@ -4,9 +4,11 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+@media only screen and (max-width: 400px){
     body{
         overflow-x: hidden;
     }
+}
 .link{
     font-family: 'Manrope';
     font-weight: 700;
