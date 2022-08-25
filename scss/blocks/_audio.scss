@@ -1,0 +1,98 @@
+.audio__wrapper {
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__contents {
+        max-width: 445px;
+
+        &__heading {
+            margin-bottom: 32px;
+            font-family: 'Manrope';
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 44px;
+            letter-spacing: 1.42857px;
+            text-transform: uppercase;
+            color: $black;
+
+            span {
+                color: $main-hover-bg;
+            }
+
+            &__desc {
+                font-family: 'Manrope';
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 25px;
+                color: $black;
+                mix-blend-mode: normal;
+                opacity: 0.5;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 996px){
+    .audio__wrapper {
+        margin-bottom: 96px;
+        margin-top: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        img{
+            width: 689px;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 40px;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+}
+    
+        &__contents {
+            max-width: 573px;
+            text-align: center;
+            order: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+            &__heading {
+                margin-bottom: 32px;
+                font-family: 'Manrope';
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 38px;
+                letter-spacing: 1.42857px;
+                text-transform: uppercase;
+                color: $black;
+                width: 327px;
+                text-align: center;
+    
+                span {
+                    color: $main-hover-bg;
+                }
+    
+                &__desc {
+                    font-family: 'Manrope';
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: $black;
+                    mix-blend-mode: normal;
+                    opacity: 0.5;
+                    width: 573;
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

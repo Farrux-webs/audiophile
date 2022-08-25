@@ -1,0 +1,28 @@
+// ============== Monrobe regular ================= //
+
+@font-face {
+    font-family: 'Manrope';
+    src: 
+         url('../fonts/Manrope-Regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/Manrope-Regular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */;
+}
+
+// ============== Monrope medium ================= //
+
+@font-face {
+    font-family: 'Barlow';
+    font-weight: 400;
+    src: 
+         url('../fonts/Manrope-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/Manrope-Medium.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */;
+}
+
+// ============== Monrope regular ================= //
+
+@font-face {
+    font-family: 'Barlow';
+    font-weight: 700;
+    src: 
+         url('../fonts/Manrope-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/Manrope-Bold.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */;
+}
